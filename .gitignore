@@ -1,0 +1,25 @@
+# Local configuration
+config/config.sh
+
+# Large genomic data
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+
+# Outputs
+results/
+logs/
+*.log
+*.out
+*.pdf
+*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
